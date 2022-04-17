@@ -1,0 +1,32 @@
+body{
+    background-color: blueviolet;
+}
+
+.contenedor{
+    width: 750px;
+    height: 550px;
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.cuadrados{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+}
+
+
+.cuadrados2{
+    width: 100px;
+    height: 100px;
+    background-color: purple;
+}
+
+
+.cuadrados3{
+    width: 100px;
+    height: 100px;
+    background-color: pink;
+}

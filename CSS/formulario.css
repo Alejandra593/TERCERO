@@ -1,0 +1,41 @@
+h1{
+    color: blue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.tituloImpotante{
+    color: red;
+    font-style: oblique;
+    font-weight: bolder;
+}
+
+#tituloId{
+    color: blueviolet;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 900;
+}
+
+
+body{
+    background-image: url('https://phantom-marca.unidadeditorial.es/c963a54b214bd7c2941442589269efbc/resize/1320/f/jpg/assets/multimedia/imagenes/2020/09/04/15991719005237.jpg');
+    background-size: cover;
+}
+
+.cuadrado {
+    background-image: url('https://phantom-marca.unidadeditorial.es/c963a54b214bd7c2941442589269efbc/resize/1320/f/jpg/assets/multimedia/imagenes/2020/09/04/15991719005237.jpg');
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    background-color: brown;
+    border: 5px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.cuadrado:hover{
+    background-image: url('https://areajugones.sport.es/wp-content/uploads/2021/06/super-mario-odyssey.jpg');
+    background-size: cover;
+}

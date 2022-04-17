@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=nav, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <nav></nav>
+    <div class="container">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur est at perferendis fugit, iste suscipit. Consequuntur, dicta. Architecto, voluptate voluptatibus? Illo perferendis fuga molestiae pariatur in porro id doloribus libero.
+      <div class="row">
+          <div class="col s12 m6 l4">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium porro optio doloribus dignissimos, in facilis odio. Quae, molestiae eveniet, iste at accusamus laudantium incidunt sint praesentium pariatur impedit iure asperiores.
+          </div>
+          <div class="col m6">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo magnam sint repudiandae saepe sed. Molestias animi eum, aut dicta voluptas quas eius veritatis aspernatur deleniti ut quis amet quia ducimus.
+          </div> 
+      </div>
+      <div class="class row">
+          <div class="class s12">
+              <table>
+                  <thead>
+                      <th>NO</th>
+                      <th>Nombres</th>
+                      <th>Seccion</th>
+                  </thead>
+                  <tbody>
+                      <tr>
+                  <td>1</td>
+                  <td>Juan</td>
+                  <td>PRIMERO DESARROLLO DE SOFTWARE</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Maria Magdalena</td>
+                    <td>primero atencion de salud</td>
+                </tr>
+                  </tbody>
+              </table>
+          </div>
+      </div>
+
+      <div class="row">
+        <form action="" method="post" class="col s12">
+            <div class="input-field col s6">
+                <input type="text" placeholder="Nombre" id="nombres">
+                <label for="">Nombres</label>
+            </div>
+            <div class="input-field col s6">
+                <input type="password" name="password" id="password">
+                <label for="password">password</label>
+            </div>
+            <div class="row">
+                <div class="input-field col s6">
+                    <input type="number" placeholder="Edad" name="Edad" id="Edad">
+                    <label for="Edad"></label>
+                </div>
+                <div class="input-field col s6">
+                    <input type="text" class="datepicker" placeholder="Fecha de nacimiento" name="fecha" id="fecha">
+                    <label for="fecha">Fecha de nacimiento</label>
+                </div>
+            </div>    
+            <div class="row">
+                <div class=" input-field col s6">
+                    <select name="" id="">
+                        <option value="" sisabled selected>Elija una opcio</option>
+                        <option value="F">Femenino</option>
+                        <option value="M">Masculino</option>
+                        <option value="X">Genero X</option>
+                    </select>
+                    <label for="">Sexo</label>
+                </div>
+                <div class="input-field col s6">
+                    <input type="submit" class="class btn pink" value="enviar">
+                    <a class="waves-effect waves-light btn"><i class="material-icons left">send</i>button</a>
+                </div>
+            </div>
+
+        </form>
+      </div>
+    </div>
+    
+
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+        $(document). ready(function(){
+      $('.datepicker').datepicker();
+      $('select').formSelect();
+        });
+    </script>
+
+
+</body>
+</html>
